@@ -16,6 +16,182 @@
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        margin: 0 auto;
+    }
+    
+    /* banner part */
+    .text_part{
+        text-align: center;
+    }
+    .text_part p{
+        padding: 0 60px;
+    }
+
+    .button-part{
+        justify-content: center;
+    }
+    /* banner part */
+
+
+    /* questsions part */
+    .questsions-text-part h2{
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    .questsions-text-part .dot{
+        font-size: 32px;
+    }
+
+
+    .accordion-item .accordion-btn span{
+        font-size: 16px;
+    }
+    
+    .accordion-item .accordion-body p{
+        font-size: 14px;
+        padding-right: 100px;
+    }
+    
+    .accordion-item .accordion-btn .btn-icon i{
+        font-size: 24px;
+    }
+    /* questsions part */
+    
+    /* review part */
+    .review_info{
+        text-align: center;
+    }
+    
+    .counter_part{
+        margin: 0 auto;
+    }
+    /* review part */
+
+
+    /* pricing */
+    .pricing_info{
+        justify-content: center;
+    }
+
+    .pricing_item{
+        padding: 10px;
+        width: 450px;
+    }
+    
+    .pricing_section .top_area{
+        text-align: center;
+    }
+    
+    .pricing_section ul{
+        margin: 0px;
+    }
+    
+    .pricing_section ul li{
+        padding: 8px 80px 8px;
+        gap: 14px;
+        justify-content: start;
+        border: none;
+    }
+    
+    .pricing_section .button_area{
+        text-align: center;
+        margin: 30px;
+    }
+
+    .pricing_info .pricing_item:nth-child(1) .pricing_section{
+        border-top: 2px solid var(--Picton-Blue);
+    }
+    .pricing_info .pricing_item:nth-child(2) .pricing_section{
+        border-top: 2px solid var(--Picton-Blue);
+    }
+    .pricing_info .pricing_item:nth-child(3) .pricing_section{
+        border-top: 2px solid var(--Picton-Blue);
+    }
+    .pricing_info .pricing_item:nth-child(2) ul{
+        margin: 0; 
+    }
+    
+    .pricing_section:hover{
+        background: #F1F5F7;
+        overflow: hidden;
+        position: inherit;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /* pricing */
+
+    
+    /* icons */
+    .social-icon ul{
+        gap: 25px;
+    }
+
+    .social-icon ul li{
+        width: 45px;
+        height: 45px;
+        
+    }
+    
+    .social-icon ul li a{
+        font-size: 20px;
+    }
+    /* icons */
+
+
+    /* footer section */
+
+    #footer{
+        position: relative;
+        padding: 80px 0 80px;
+    }
+
+    .footer .upper_part{
+        text-align: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .copyright{
+        bottom: 12px;
+        position: absolute;
+    }
+
+    .copyright h4{
+        font-size: 14px;
+    }
+
+    .copyright span{
+        font-size: 18px;
+    }
+
+    .menu_sec h5{
+        font: 12px;
+	    padding-bottom: 16px;
+    }
+
+    .menu_sec  li {
+        margin-bottom: 10px;
+    }
+
+    .menu_sec  li a{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    /* footer section */
+
+    
+    
+
 
 }
 
@@ -39,7 +215,7 @@
     .review_part{
         margin: 0 auto;
     }
-
+    /* icons */
     .social-icon ul li{
         width: 60px;
         height: 60px;
@@ -49,7 +225,28 @@
         font-size: 30px;
         color: var(--White);
     }
+    /* icons */
 
+    /* footer section */
+
+    .copyright h4{
+        font-size: 20px;
+    }
+
+    .copyright span{
+        font-size: 30px;
+    }
+
+    .menu_sec  li {
+        margin-bottom: 10px;
+    }
+
+    .menu_sec  li a{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    /* footer section */
 
 }
 

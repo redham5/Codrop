@@ -58,7 +58,7 @@ body{
 
 #navbar ul li a{
     color: var(--White);
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-size: 15px;
     font-weight: 500;
     padding: 0 15px;
@@ -81,7 +81,7 @@ body{
 
 #banner{
     background: var(--Anti-Flash-White);
-    padding: 0 0 20px;
+    /* padding: 0 0 20px; */
 }
 
 .text_part{
@@ -129,7 +129,7 @@ body{
 .button-part a{
     color: #fff;
     background: var(--Space-Cadet);
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-size: 16px;
     font-weight: 600;
     padding: 10px 30px;
@@ -206,7 +206,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: var(--jost);
+    font-family: var(--Jost);
 }
 .slider_info .text h3{
     font-size: 40px;
@@ -218,7 +218,7 @@ body{
 }
 .slider_info .text p{
     padding-right: 10px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     line-height: 30px;
     font-size: 17px;
     font-weight: 400;
@@ -258,7 +258,7 @@ body{
 }
 #features .heading_part h2{
     font-size: 40px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 700;
     color: var(--dark-purple);
 }
@@ -269,7 +269,7 @@ body{
 #features .heading_part p{
     margin: 0 auto;
     max-width: 625px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 400;
     font-size:17px;
     line-height:30px;
@@ -304,7 +304,7 @@ body{
     padding:27px 30px 15px 30px;
 }
 .features_section .text_area h2{
-    font-family: var(--jost);
+    font-family: var(--Jost);
     line-height: 30px;
     font-size: 20px;
     font-weight: 700;
@@ -338,7 +338,7 @@ body{
 .questsions-text-part h2{
     line-height: 45px;
     font-size: 30px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     color: var(--dark-purple);
     font-weight: 600;
     margin-left: 25px;
@@ -386,14 +386,14 @@ body{
 .accordion-item .accordion-btn span{
     color: var(--Space-Cadet);
     font-size: 22px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 600;
 }
 
 .accordion-item .accordion-body p{
     color: var(--UCLA-Blue);
     font-size: 17px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 400;
     width: 400px;
 }
@@ -407,15 +407,15 @@ body{
 #review{
     background: var(--Anti-Flash-White);
     padding: 50px 0;
-    font-family: var(--jost);
+    font-family: var(--Jost);
 }
 .review_info{
-    margin-top: 165px;
+    margin-top: 80px;
 }
 .review_info h3{
     line-height: 45px;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     color: var(--dark-purple);
 }
 .review_info h3 span{
@@ -424,7 +424,7 @@ body{
 }
 .review_info p{
     margin-top: 30px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     line-height: 30px;
     font-size: 17px;
     font-weight: 400;
@@ -437,7 +437,7 @@ body{
 }
 .counter_part {
     margin-left: -25px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
 }
 .counter_part ul{
     display: flex;
@@ -499,7 +499,7 @@ body{
 }
 #pricing .heading_part h2{
     font-size: 40px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 700;
     color: var(--dark-purple);
 }
@@ -510,7 +510,7 @@ body{
 #pricing .heading_part p{
     margin: 0 auto;
     max-width: 625px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 400;
     font-size:17px;
     line-height:30px;
@@ -530,41 +530,43 @@ body{
     overflow: hidden;
     transition: all linear .3s;
 }
+
 .pricing_section:hover{
     overflow: hidden;
     position: inherit;
     margin-top: 20px;
     margin-bottom: -20px;
     box-shadow: 0 3px 20px -2px rgba(21, 34, 61, 0.329);
-    
 }
+
 .pricing_section .top_area{
     padding: 40px 40px 20px 40px;
 }
+
 .pricing_section .top_area h2{
     font-size: 20px;
     font-weight: 500;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     color: var(--dark-purple);
     line-height: 50px;
 }
 .pricing_section .top_area .doller{
     font-size: 30px;
     font-weight: 400;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     color: var(--dark-purple);
 }
 .pricing_section .top_area .text{
     font-size: 50px;
     font-weight: 400;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     color: var(--dark-purple);
     line-height: 50px;
 }
 .pricing_section .top_area p{
     font-size: 17px;
     font-weight: 700;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     color:rgb(71, 178, 228);
     margin-top: 15px;
 }
@@ -576,14 +578,12 @@ body{
     margin: 20px 0px;
 }
 .pricing_section ul li{
-    margin-top:20px;
-    padding-bottom:20px ;
+    padding: 20px 0 20px;
     display: flex;
     gap: 30px;
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
     color: var(--dark-purple);
     border-bottom: 2px solid rgb(230, 230, 230);
 }
@@ -591,9 +591,7 @@ body{
     margin: 80px 37px 37px 37px;
 }
 .pricing_section .button_area a{
-    
-    font-family: var(--jost);
-    line-height: 30px;
+    font-family: var(--Jost);
     font-size: 17px;
     font-weight: 400;
     background: #fff;
@@ -603,16 +601,17 @@ body{
     padding: 10px 25px;
     transition: all linear .3s;
 }
+
 .pricing_section .button_area a:hover{
     background: var(--Picton-Blue);
     color: var(--White);
     border: 1px solid 47B2E4;
 
 }
-.pricing_info .col-lg-4:nth-child(2) .pricing_section{
+.pricing_info .pricing_item:nth-child(2) .pricing_section{
     border-top: 2px solid var(--Picton-Blue);
 }
-.pricing_info .col-lg-4:nth-child(2) ul{
+.pricing_info .pricing_item:nth-child(2) ul{
     margin: 70px 0px; 
 }
 
@@ -644,12 +643,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 0 30px 0;
+    padding: 60px 0;
 }
 
 .social-icon ul{
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 .social-icon ul li{
@@ -677,9 +678,8 @@ body{
 
 
 
-/* footer section start */
+/* footer section */
 #footer{
-    
     background: var(--Space-Cadet);
     padding: 80px 0 50px;
 }
@@ -687,7 +687,7 @@ body{
 .footer-text {
 	color: var(--Azureish-White);
 	font-size: 19px;
-	font-family: var(--jost);
+	font-family: var(--Jost);
 	font-weight: 300;
 	padding: 30px 0 0 0;
 }
@@ -719,10 +719,9 @@ body{
     text-align: left;
 }
 .menu_sec h5 {
-	font-family: var(--jost);
+	font-family: var(--Jost);
 	font-weight: 600;
 	font-size: 20px;
-	line-height: 24px;
 	color: var(--White);
 	padding-bottom: 20px;
 	padding-top: 35px;
@@ -735,10 +734,9 @@ body{
 
 
 .menu_sec  li a{
-    font-family: var(--jost);
+    font-family: var(--Jost);
     font-weight: 500;
     font-size: 15px;
-    line-height: 35px;
     color: var(--White);
     text-decoration: none;
     position: relative;
@@ -759,7 +757,7 @@ body{
 .menu_sec  li a:hover::after{
     width: 100%;
 }
-/* footer section end */
+/* footer section */
 
 
 
