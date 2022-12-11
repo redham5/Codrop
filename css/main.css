@@ -1,13 +1,11 @@
-/* fonts */
+/* fonts part */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
-
-
-/* fonts */
+/* fonts part */
 
 :root{
+    --Jost: 'Jost', sans-serif;
     --White: #ffffff;
     --Anti-Flash-White: #F1F5F7;
-    --Jost: 'Jost', sans-serif;
     --Picton-Blue: #47b2e4;
     --Space-Cadet : #12304a;
     --dark-purple: #12304a;
@@ -38,7 +36,6 @@ body{
 
 
 /* navbar */
-
 #navbar{
     background: var(--Space-Cadet);
 }
@@ -75,8 +72,6 @@ body{
 #navbar ul li a:hover{
     color: var(--Picton-Blue);
 }
-
-
 /* navbar */
 
 
@@ -330,11 +325,10 @@ body{
 /* questsions */
 
 #questsions{
-    margin: 100px;
+    margin: 100px 0;
 }
 
 .questsions-text-part{
-    margin: 0 85px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -360,6 +354,10 @@ body{
 }
 
 /* 2nd part */
+
+.accordion{
+    /* padding: 0 15px; */
+}
 
 .accordion-item{
     margin: 0 0 10px 0;
@@ -435,6 +433,7 @@ body{
 
 .review_img img{
     padding-top: 20px;
+    min-width: 835px;
 }
 .counter_part {
     margin-left: -25px;
@@ -654,8 +653,8 @@ body{
 }
 
 .social-icon ul li{
-    min-width: 80px;
-    min-height: 80px;
+    width: 80px;
+    height: 80px;
     background: var(--Space-Cadet);
     border-radius: 50%;
     display: flex;
