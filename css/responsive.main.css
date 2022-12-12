@@ -2,7 +2,40 @@
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* navbar */
+
+    #navbar ul li{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    #navbar ul li:hover::after{
+        width: 100%;
+    }
+    /* navbar */
+
+    /* features */
+    .features_part{
+        width: 450px;
+    }
+    /* features */
+
+
+    /* counter part */
+
+    .counter_part ul{
+        gap: 10px;
+    }
+
+    /* counter part */
     
+    /* footer section */
+
+    .menu_area{
+        padding-left: 20px;
+    }
+
+    /* footer section */
 }
 
 
@@ -18,6 +51,17 @@
         margin: 0 auto;
     }
 
+    /* navbar */
+
+    #navbar ul li{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    #navbar ul li:hover::after{
+        width: 100%;
+    }
+    /* navbar */
 
     /* features */
     .features_part{
@@ -95,6 +139,8 @@
     }
     /* pricing */
 
+    
+
 }
 
 
@@ -109,6 +155,19 @@
     .container{
         margin: 0 auto;
     }
+
+
+    /* navbar */
+
+    #navbar ul li{
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    #navbar ul li:hover::after{
+        width: 100%;
+    }
+    /* navbar */
     
     /* banner part */
     .text_part{

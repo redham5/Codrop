@@ -72,6 +72,24 @@ body{
 #navbar ul li a:hover{
     color: var(--Picton-Blue);
 }
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.nav_icon i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Space-Cadet);
+    font-size: 24px;
+    background: var(--White);
+    border-radius: 10px;
+}
+
+
 /* navbar */
 
 
@@ -354,10 +372,6 @@ body{
 }
 
 /* 2nd part */
-
-.accordion{
-    /* padding: 0 15px; */
-}
 
 .accordion-item{
     margin: 0 0 10px 0;
