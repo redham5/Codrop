@@ -4,21 +4,37 @@
 @media (max-width: 575.98px) {
     /* navbar */
 
+    .navbar-brand img{
+        width: 200px;
+    }
+
     #navbar ul li{
         margin: 0 auto;
         padding: 10px 0;
     }
 
     #navbar ul li:hover::after{
-        width: 100%;
+        width: 0;
     }
     /* navbar */
+
+
+    
+    /* OWL-SLIDER-CAROUSEL PART */
+    .owl-carousel .overlay img{
+        width: 300px;
+        margin-left: 130px;
+    }
+    /* OWL-SLIDER-CAROUSEL PART */
+
+
 
     /* features */
     .features_part{
         width: 450px;
     }
     /* features */
+
 
 
     /* counter part */
@@ -59,9 +75,16 @@
     }
 
     #navbar ul li:hover::after{
-        width: 100%;
+        width: 0;
     }
     /* navbar */
+
+    /* OWL-SLIDER-CAROUSEL PART */
+    .owl-carousel .overlay img{
+        width: 300px;
+        margin-left: 130px;
+    }
+    /* OWL-SLIDER-CAROUSEL PART */
 
     /* features */
     .features_part{
@@ -165,7 +188,7 @@
     }
 
     #navbar ul li:hover::after{
-        width: 100%;
+        width: 0;
     }
     /* navbar */
     
